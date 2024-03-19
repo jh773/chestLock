@@ -1,7 +1,7 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "상자 잠금",
+		"name": "Chest Lock BP",
 		"description": "Made by aparu773",
 		"min_engine_version": [
 			1,
