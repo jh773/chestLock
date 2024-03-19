@@ -1,0 +1,46 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "상자 잠금",
+		"description": "Made by aparu773",
+		"min_engine_version": [
+			1,
+			19,
+			50
+		],
+		"uuid": "dd8e6f68-fc25-4201-be3f-c71ed896a6b0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "5040cce4-6d85-4af1-b6bb-6fdd27c93034",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "ad5d9e14-4220-4bc2-a727-afa703e7bb45",
+			"entry": "scripts/main.js",
+			"version": [1,0,0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.10.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
